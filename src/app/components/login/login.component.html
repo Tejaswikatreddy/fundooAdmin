@@ -5,18 +5,23 @@
     <div class="col-xs-10 col-sm-8 col-md-4 column_style">
       <div class="card">
         <form>
-          <div class="card-header">ADMIN LOGIN</div>
+          <div class="card-header">
+            
+            ADMIN LOGIN</div>
           <div class="card-body">
             <div class="form-group">
               <label for="email">Email Id:</label>
-              <input type="email" class="form-control" placeholder="Enter email id" id="email">
+              <input  class="form-control" placeholder="Enter email id" id="email">
+              <label id="emailLabel" class="labels"></label>
             </div>
             <div class="form-group">
               <label type="password">Password:</label>
               <input type="password" class="form-control" placeholder="password" id="password">
+              <label id="passwordLabel"></label>
             </div>
             <div>
-              <button type="submit" value="submit" class="btn btn-primary btn-block">Submit</button>
+              <button class="btn btn-primary btn-block" id="btn">Submit</button>
+              <!-- <label id="msg"></label> -->
             </div>
           </div>
         </form>
